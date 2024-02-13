@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+:root{
+	--color-textos:#838383;
+	--color-primario:#1379e7;
+	--color-titulos:#1a1a1a;
+	--fondo-footer:#efefef;
+	--color-footer:#6d6d6d;
+}
+body{
+	font-size: 15px;
+	color: var(--color-textos);
+	font-weight: 400;
+	line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+
+footer{
+	text-align: center;
+	padding: 20px 0;
+	color: var(--color-footer);
+}
+footer #footer-sponsors{
+	color: #fff;
+}
+
+.section{
+	padding: 8% 0;
+}
+.btn-primary{
+	background-color: var(--color-primario);
+	border: 0;
+	padding: 10px 20px !important;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.titulo{
+	font-size: 44px;
+	line-height: 1.3;
+	font-weight: 600;
+	color: var(--color-titulos);
+	font-style: normal;
+	margin-bottom: 20px;
+}
+#hero{
+	background-image: url("../img/hero.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 20% 0;
+	overflow: hidden;
+}
+
+#hero #informacion{
+	text-align: left;
+	margin-left: 53%;
+	
+}
+
+#informacion h1{
+	font-size: 50px;
+}
+
+#informacion a{
+	border-radius: 20px;
+	padding: 40px;
+	background-color: var(--color-primario);
+}
+
+.separar{
+	margin-left: 10px;
+}
+
+
+
+#informacion h1{
+	color: var(--color-primario);
+	margin-bottom: 2%;
+}
+
+#informacion p{
+	font-size: 14px;
+}
+
+
+
+h3{
+	font-size: 16px;
+	line-height: 1.3;
+	font-weight: 700;
+	color: var(--color-titulos);
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.poppins-regular {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+
+
+  #servicios{
+	padding-top: 10%;
+	text-align: center;
+  }
+
+  #servicios img{
+	margin-bottom: 30px;
+  }
+  
+  #servicios h3{
+	margin-bottom: 30px;
+  }
+
+  #servicios p{
+	margin-bottom: 10px;
+  }
+
+  #meet{
+	padding-top: 20%;
+  }
+
+  #meet h2{
+	margin-bottom: 30px;
+	color: var(--color-titulos);
+  }
+
+  #meet p{
+	margin-bottom: 30px;
+	color: var(--color-textos);
+  }
+
+  #meet li{
+	margin-bottom: 20px;
+  }
+
+  #meet a{
+  color: var(--color-primario);
+  
+  }
+
+  #privacy h2{
+	margin-bottom: 30px;
+	color: var(--color-titulos);
+  }
+
+  #privacy .salto-texto{
+	color: var(--color-textos);
+	margin-bottom: 30px;
+  }
+
+  #privacy p{
+ text-align: left;
+  }
+
+  #privacy{
+	padding: 70px;
+  }
+
+  #team{
+	background-color: #fafafaa9;
+	padding: 150px;
+  }
+
+  #team h2{
+	text-align: center;
+	opacity: 0.2;
+	font-size: 100px;
+  }
+
+  #team h3{
+	font-weight: 800px;
+
+  }
+
+
+.mensaje-team{
+	text-align: center;
+	margin-top: 200px;
+	color: var(--color-textos);
+}
+
+.mensaje-team h5{
+
+	color: var(--color-titulos);
+
+}
+
+#copyright{
+	background-color: var(--color-footer);
+	color: #fff;
+	padding: 50px;
+}
+
+
+
+
+
+
+
+
+
